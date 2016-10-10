@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-RU">
+<head>
+	<meta charset="UTF-8">
+	<title>Inventer</title>
+	<script src = "main.js"></script>
+	<script src = "jquery.js"></script>
+	<script src = "jquery-ui.min.js"></script>
+	<script src = "jQuery.WCircleMenu-min.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="jquery-ui.css">
+</head>
+<body>
+	<div class="menu_button_wrapper">
+		<div class="menu_button">
+			<div class="description"></div>
+			<div class="pie_icon"></div>
+			<ul class="pie">
+				<li class="slice add_object"><div class="no-selectable slice-contents">Добавить объект</div></li>
+				<li class="slice remove"><div class="no-selectable slice-contents">Удалить</div></li>
+				<li class="slice remove_all"><div class="no-selectable slice-contents">Удалить с содержимым</div></li>
+				<li class="slice add_method"><div class="no-selectable slice-contents">Добавить метод</div></li>
+				<li class="slice add_prop"><div class="no-selectable slice-contents">Добавить свойство</div></li>
+				<li class="slice add container"><div class="no-selectable slice-contents">Добавить контейнер</div></li>
+			</ul>
+		</div>
+	</div>
+<div id="main_container">
+	<span id = "createBaseNode"><span>+</span><span id="clearfix"></span></span>
+	<ul id="nodes"></ul>
+</div>
+<!-- <ul>
+	<li><div class="test">1</div></li>
+
+</ul>
+<ul>
+	<li><div class="test">2</div></li>
+</ul> -->
+<script>
+// 	var request = $.ajax({ 
+// url: "http://idealliance.ru/port.php", 
+// method: "GET", 
+// data: { table : "boots", 
+// key : "rtt", 
+// gen : "json", 
+
+// }, 
+// dataType: "json" 
+// }); 
+
+// request.done(function( msg ) { 
+// 	try{
+// 	for (var i =0;i<msg.length;i++){
+// 	var message = msg[i]+'}';
+// 	/*console.log(message);*/
+// 	element = JSON.parse(message);
+// 	for (var key in element){
+// 		var piece = element[key];
+// 		console.log(piece);
+// 		for (var k in piece){
+// 			/*console.log(k,piece[k])*/
+// 		} 
+// 	}
+// }; 
+// }catch(err){
+// 	console.log(msg.length)
+// }
+
+// }); 
+
+// request.fail(function( jqXHR, textStatus ) { 
+// alert( "Request failed: " + textStatus ); 
+// });
+</script>
+</body>
+</html>
